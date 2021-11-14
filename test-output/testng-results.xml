@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-14T20:03:35 TRT" name="Default suite" finished-at="2021-10-14T20:04:57 TRT" duration-ms="81799">
+    <groups>
+    </groups>
+    <test started-at="2021-10-14T20:03:35 TRT" name="Default test" finished-at="2021-10-14T20:04:57 TRT" duration-ms="81799">
+      <class name="testcases.AddEmployeTest">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:03:35 TRT" name="generateReport" finished-at="2021-10-14T20:03:36 TRT" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:03:37 TRT" name="open" finished-at="2021-10-14T20:03:46 TRT" duration-ms="9262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:03:46 TRT" name="addEmployee" data-provider="userExcelData" finished-at="2021-10-14T20:04:03 TRT" duration-ms="17160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arnavut]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[napoli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bndsrski]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:04:03 TRT" name="close" finished-at="2021-10-14T20:04:04 TRT" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:04:04 TRT" name="open" finished-at="2021-10-14T20:04:12 TRT" duration-ms="8244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:04:12 TRT" name="addEmployee" data-provider="userExcelData" finished-at="2021-10-14T20:04:30 TRT" duration-ms="17583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[italya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[okante]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[itaoka]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:04:30 TRT" name="close" finished-at="2021-10-14T20:04:30 TRT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:04:30 TRT" name="open" finished-at="2021-10-14T20:04:38 TRT" duration-ms="7762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:04:38 TRT" name="addEmployee" data-provider="userExcelData" finished-at="2021-10-14T20:04:55 TRT" duration-ms="17438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankara]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[malbrona]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anmalb]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:04:56 TRT" name="close" finished-at="2021-10-14T20:04:56 TRT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="writeReport()[pri:0, instance:testcases.AddEmployeTest@63a12c68]" started-at="2021-10-14T20:04:56 TRT" name="writeReport" finished-at="2021-10-14T20:04:57 TRT" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- testcases.AddEmployeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

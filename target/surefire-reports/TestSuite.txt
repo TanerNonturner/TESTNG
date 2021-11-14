@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.95 s <<< FAILURE! - in TestSuite
+testcases.LoginTest.emptyPasswordLogin  Time elapsed: 9.383 s  <<< FAILURE!
+java.lang.AssertionError: Error message doesn't match expected [La contraseña no puede estar vacía] but found [Password can not be empty]
+	at testcases.LoginTest.emptyPasswordLogin(LoginTest.java:47)
+

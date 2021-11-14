@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AddEmployeeTest Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddEmployeeTest(failed)">
+    <classes>
+      <class name="testcases.AddEmployeTest">
+        <methods>
+          <include name="generateReport"/>
+          <include name="addEmployee"/>
+          <include name="writeReport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.AddEmployeTest -->
+    </classes>
+  </test> <!-- AddEmployeeTest(failed) -->
+</suite> <!-- Failed suite [AddEmployeeTest Suite] -->

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-14T21:54:49 TRT" name="Suite" finished-at="2021-10-14T21:55:11 TRT" duration-ms="22087">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.emptyPasswordLogin()[pri:1, instance:testcases.LoginTest@6d421fe]" name="emptyPasswordLogin" class="testcases.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.emptyPasswordLogin()[pri:1, instance:testcases.LoginTest@6d421fe]" name="emptyPasswordLogin" class="testcases.LoginTest"/>
+        <method signature="LoginTest.login()[pri:0, instance:testcases.LoginTest@6d421fe]" name="login" class="testcases.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-14T21:54:49 TRT" name="Test" finished-at="2021-10-14T21:55:11 TRT" duration-ms="22087">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testcases.LoginTest@6d421fe]" started-at="2021-10-14T21:54:49 TRT" name="generateReport" finished-at="2021-10-14T21:54:50 TRT" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method signature="login()[pri:0, instance:testcases.LoginTest@6d421fe]" started-at="2021-10-14T21:54:50 TRT" name="login" finished-at="2021-10-14T21:55:01 TRT" duration-ms="11474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="emptyPasswordLogin()[pri:1, instance:testcases.LoginTest@6d421fe]" started-at="2021-10-14T21:55:01 TRT" name="emptyPasswordLogin" finished-at="2021-10-14T21:55:10 TRT" duration-ms="9158" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message doesn't match expected [La contraseña no puede estar vacía] but found [Password can not be empty]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message doesn't match expected [La contraseña no puede estar vacía] but found [Password can not be empty]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at testcases.LoginTest.emptyPasswordLogin(LoginTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:186)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1198)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1063)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:889)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordLogin -->
+        <test-method is-config="true" signature="writeReport()[pri:0, instance:testcases.LoginTest@6d421fe]" started-at="2021-10-14T21:55:11 TRT" name="writeReport" finished-at="2021-10-14T21:55:11 TRT" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
